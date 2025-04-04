@@ -1,0 +1,23 @@
+.ds-chip {
+  width: fit-content;
+  background-color: #2c2c2c;
+  color: #f5f5f5;
+  border-radius: 8px;
+  padding: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+.ds-chip.error {
+  background-color: #ec221f;
+  color: #ffffff;
+}
+
+.ds-chip.success {
+  background-color: #14ae5c;
+  color: #ffffff;
+}
